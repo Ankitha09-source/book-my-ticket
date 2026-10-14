@@ -1,0 +1,24 @@
+# Secrets and local configuration
+src/main/resources/application.properties
+.env
+.env.*
+!.env.example
+
+# Build output
+target/
+build/
+*.class
+*.jar
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# Logs and crash dumps
+*.log
+hs_err_pid*
+replay_pid*
